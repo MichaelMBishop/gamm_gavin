@@ -1,6 +1,6 @@
 ## For GAMM models from mgcv:::gamm
 
-## Model Checking function
+## Model Checking function by Gavin Simpson
 tsDiagGamm <- function(x, timevar, observed, f = 0.3, type = "normalized") {
     resi <- resid(x$lme, type = type)
     fits <- fitted(x$lme)
